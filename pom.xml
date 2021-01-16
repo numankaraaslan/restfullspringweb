@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.wservice</groupId>
+	<artifactId>restfullspringweb</artifactId>
+	<packaging>war</packaging>
+	<version>0.0.1</version>
+	<name>Restfullspringweb Spring-WS Application</name>
+	<build>
+		<finalName>restfullspringweb</finalName>
+		<plugins>
+			<plugin>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<configuration>
+					<source>1.8</source>
+					<target>1.8</target>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+	<dependencies>
+		<!-- https://mvnrepository.com/artifact/org.springframework.ws/spring-ws-core -->
+		<dependency>
+			<groupId>org.springframework.ws</groupId>
+			<artifactId>spring-ws-core</artifactId>
+			<version>3.0.10.RELEASE</version>
+		</dependency>
+	</dependencies>
+</project>
